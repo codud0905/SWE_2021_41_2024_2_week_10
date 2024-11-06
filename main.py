@@ -2,6 +2,15 @@ from typing import List
 
 # even_list 함수 구현
 def even_list(int_list: List[int]) -> List[int]:
+    """
+    Determines if a number is even and return an even list.
+    
+    Args:
+        int_list: A list of integers.
+        
+    Returns:
+        A list of even integers.
+    """
     return [x for x in int_list if x % 2 == 0]
 
 # sum_of_squares_of_even 함수 구현
